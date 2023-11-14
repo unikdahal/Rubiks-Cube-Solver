@@ -27,7 +27,7 @@ const ButtonContainer = () => {
       weight: "14",
     },
     {
-      content: "Random",
+      content: "Shuffle",
       height: "44",
       weight: "14",
     },

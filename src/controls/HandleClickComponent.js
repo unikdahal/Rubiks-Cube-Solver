@@ -25,7 +25,7 @@ const HandleClickComponent = (content, rubiksCube, setRubiksCube) => {
   };
   if (content === "Reset") {
     setRubiksCube(initialCubeState);
-  } else if (content === "Random") {
+  } else if (content === "Shuffle") {
     randomize();
   } else if (content === "Solve") {
     solveCube(rubiksCube, setRubiksCube);
